@@ -30,11 +30,11 @@ try:
     wait = WebDriverWait(driver, 20)
 
     username_input = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, locators['login_page']['username_field'])))
-    username_input.send_keys("Nastya379")
+    username_input.send_keys("samec24")
 
     password_input = driver.find_element(By.CSS_SELECTOR, locators['login_page']['password_field'])
-    password_input.send_keys("2d94b3b2a2")
-
+    password_input.send_keys("b6a9c7f893")
+    
     login_button = driver.find_element(By.CSS_SELECTOR, locators['login_page']['login_button'])
     login_button.click()
 
