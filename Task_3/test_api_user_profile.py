@@ -1,8 +1,8 @@
 import requests
 
 form_data = {
-    "username": (None, "Nastya379"),
-    "password": (None, "2d94b3b2a2")
+    "username": (None, "samec24"
+    "password": (None, "b6a9c7f893")
 }
 
 url_login = "https://test-stand.gb.ru/gateway/login"
